@@ -1,17 +1,15 @@
-const colors = require('tailwindcss/colors')
 
 module.exports = {
   purge: [
-    './*.php',
+    './**/*.php',
+    './**/*.{js,jsx,ts,tsx}',
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      colors: {
-        cyan: colors.cyan
-      }
     },
   },
+  prefix: 'tw-', //to prevent overlapping styles from WP
   variants: {
     extend: {},
   },

@@ -1,0 +1,3 @@
+/* @tailwind base; */ /* activating this may override wp backend styles */
+@tailwind components;
+@tailwind utilities; 

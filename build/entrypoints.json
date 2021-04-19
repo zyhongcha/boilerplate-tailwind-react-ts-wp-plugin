@@ -1,9 +1,0 @@
-{
-  "entrypoints": {
-    "tailwindcss": {
-      "js": [
-        "build/runtime.js"
-      ]
-    }
-  }
-}
